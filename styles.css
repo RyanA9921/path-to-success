@@ -1,0 +1,447 @@
+
+body {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 0;
+  background: var(--lavender);
+  font-family: 'Inter', sans-serif;
+  color: var(--dark-gray);
+}
+
+/* NAV AREA */
+#menu {
+    background-color: var(--yellow);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#menu > h2 {
+    color: black;
+    font-style: italic;
+    font-family: 'Inter', sans-serif;
+    padding-top: 16px;
+}
+
+#menu a {
+  display: block;
+  background-color: var(--white);
+  color: var(--purple);
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* SERVICES SECTION */
+#services {
+    background-color: var(--purple);
+    margin-top: 0px;
+    padding-bottom: 5px;
+}
+
+#services h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 16px 16px 0px;
+}
+
+#services h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 0px 16px 0px;
+}
+
+#development {
+    background-color: var(--white);
+    margin: 16px;
+    border-radius: 10px;
+}
+
+#development img {
+    padding: 20px 0px 0px 20px
+}
+
+#development h4 {
+    padding-left: 16px;
+    margin: 20px 16px 5px;
+    color: var(--purple);
+}
+
+#development p {
+    margin: 0px 16px 16px;
+    padding: 0px 16px 16px;
+    line-height: 1.5rem;
+}
+
+#career-coaching {
+    background-color: var(--white);
+    margin: 16px;
+    border-radius: 10px;
+}
+
+#career-coaching h4 {
+    padding-left: 16px;
+    margin: 20px 16px 5px;
+    color: var(--purple);
+}
+
+#career-coaching p {
+    margin: 0px 16px 16px;
+    padding: 0px 16px 16px;
+    line-height: 1.5rem;
+}
+
+#career-coaching img {
+    padding: 20px 0px 0px 25px
+}
+
+#relationship {
+    background-color: var(--white);
+    margin: 16px 16px 0px;
+    border-radius: 10px;
+}
+
+#relationship h4 {
+    padding-left: 16px;
+    margin: 20px 16px 5px;
+    color: var(--purple);
+}
+
+#relationship p {
+    margin: 0px 16px 16px;
+    padding: 0px 16px 16px;
+    line-height: 1.5rem;
+}
+
+#relationship img {
+    padding: 20px 0px 0px 25px
+}
+
+#coaching {
+    background-color: var(--purple);
+    padding-bottom: 5px;
+}
+
+#coaching h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 0px 16px 5px;
+}
+
+#community {
+    background-color: var(--white);
+    margin: 16px 16px 0px;
+    border-radius: 10px;
+}
+
+#community h4 {
+    padding-left: 16px;
+    margin: 20px 16px 5px;
+    color: var(--purple);
+}
+
+#community p {
+    margin: 0px 16px 16px;
+    padding: 0px 16px 16px;
+    line-height: 1.5rem;
+}
+
+#community img {
+    padding: 20px 0px 0px 30px
+}
+
+#sessions {
+    background-color: var(--white);
+    margin: 16px 16px 0px;
+    border-radius: 10px;
+}
+
+#sessions h4 {
+    padding-left: 16px;
+    margin: 20px 16px 5px;
+    color: var(--purple);
+}
+
+#sessions p {
+    margin: 0px 16px 16px;
+    padding: 0px 16px 16px;
+    line-height: 1.5rem;
+}
+
+#sessions img {
+    padding: 20px 0px 0px 30px
+}
+
+#events {
+    background-color: var(--purple);
+}
+
+#events h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 0px 16px 5px;
+}
+
+#int-learning {
+    background-color: var(--white);
+    margin: 16px 16px 0px;
+    border-radius: 10px;
+    padding-bottom: 8px;
+}
+
+#int-learning h4 {
+    padding-left: 16px;
+    margin: 20px 16px 5px;
+    color: var(--purple);
+}
+
+#int-learning p {
+    margin: 0px 16px 16px;
+    padding: 0px 16px 16px;
+    line-height: 1.5rem;
+}
+
+#int-learning img {
+    padding: 20px 0px 0px 30px
+}
+
+#flex-learning {
+    background-color: var(--white);
+    margin: 16px 16px 0px;
+    border-radius: 10px;
+    padding-bottom: 8px;
+}
+
+#flex-learning h4 {
+    padding-left: 16px;
+    margin: 20px 16px 5px;
+    color: var(--purple);
+}
+
+#flex-learning p {
+    margin: 0px 16px 16px;
+    padding: 0px 16px 16px;
+    line-height: 1.5rem;
+}
+
+#flex-learning img {
+    padding: 20px 0px 0px 30px
+}
+
+#courses {
+    background-color: var(--purple);
+    padding-bottom: 20px;
+}
+
+#courses h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 5px 16px 5px;
+}
+
+/* WHY US SECTION */
+#why-us {
+    background-color: var(--pink);
+    padding-top: 5px;
+}
+
+#why-us h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 16px 16px 0px;
+}
+
+#why-us ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  margin: 5px 0px 0px;
+  padding: 3px 8px 8px;
+  list-style-type: none;
+  text-align: center;
+}
+
+#why-us li {
+  font-size: 18px;
+  padding: 32px;
+  font-weight: bold;
+  margin: 8px;
+}
+
+#approach {
+    background-color: var(--teal);
+    padding: 20px 0px 20px;
+    border-radius: 16px;
+    margin: 0;
+}
+
+#results {
+    background-color: var(--lavender);
+    padding: 20px 16px 20px;
+    border-radius: 16px;
+    margin-right: 16px;
+}
+
+#environment {
+    background-color: var(--yellow);
+    padding: 20px 16px 20px;
+    border-radius: 16px;
+    margin-right: 16px;
+}
+
+#options {
+    background-color: var(--white);
+    padding: 20px 16px 20px;
+    border-radius: 16px;
+    margin-right: 16px;
+}
+
+/* PRICING */
+#pricing {
+    background-color: var(--purple);
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 6px;
+}
+
+#pricing h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 16px 16px 0px;
+}
+
+#pricing h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 0px 16px 0px;
+}
+
+/* TABLE */
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 10px auto;
+  font-size: 14px;
+  background-color: var(--white);
+  color: var(--dark-gray);
+}
+
+th, td {
+  border: 2px solid var(--yellow);
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: var(--yellow);
+  color: black;
+}
+
+/*  BOOKING  */
+#booking {
+    background-color: var(--pink);
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+}
+
+#booking h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 10px 16px 0px;
+}
+#booking p {
+    color: var(--white);
+    padding: 0px 16px 0px;
+    margin: 0px auto;
+}
+
+/* BUTTON */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 1.2rem 8rem;
+    font-size: 1em;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: var(--white);
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 5px 5px 5px;
+}
+
+/* FOOTER */
+#footer {
+    background: var(--purple);
+    color: var(--white);
+    text-align: center;
+    font-size: 12px;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* ROOT VARIABLES */
+:root {
+  --teal: #4CA7C0;
+  --purple: #484FB7;
+  --lavender: #6B8FE7;
+  --yellow: #E9BB57;
+  --pink: #D9526F;
+  --dark-gray: #1E1E1E;
+  --white: #ffffff;
+}
+
+/* GLOBAL STYLES */
+h1, h2 {
+  font-family: 'Kavoon';
+}
+
+#header {
+    background-color: var(--purple);
+    text-align: center;
+}
+
+.container {
+    font-style: italic;
+    color: var(--white);
+    padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 3em;
+  color: var(--white);
+  margin-top: 0;
+  padding-top: 2rem;
+  margin-bottom: 0px;
+}
+
+nav h2 {
+    font-size: 1.5em;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2em;
+    color: var(--white);
+}
+
+h3 {
+    font-size: 1.5em;
+    color: var(--yellow)
+}
+
+h4 {
+    font-size: 1.15em;
+}
